@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>NihonGo</title>
+<script>
+  // GitHub Pages SPA redirect fix
+  var seg = window.location.pathname.replace(/\/[^/]*$/, '');
+  window.location.replace(seg + '/' + (window.location.search ? '?' + window.location.search.slice(1) : ''));
+</script>
+</head><body></body></html>
